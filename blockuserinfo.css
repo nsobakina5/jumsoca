@@ -1,0 +1,86 @@
+/* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info {
+  float: right;
+  padding: 0 20px 0 0;
+  position: relative;
+}
+@media (max-width: 991px) {
+  /* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info {
+    float: left;
+    width: 100%;
+  }
+}
+/* line 12, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .otlogin a {
+  float: right;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 5px 20px 0 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  /* line 12, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .otlogin a {
+    color: #666666;
+    line-height: 24px;
+    text-transform: capitalize;
+  }
+}
+/* line 23, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .otlogin a:hover {
+  background: none;
+}
+/* line 28, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .otuser-info {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 150px;
+  background: white;
+  border: 1px solid #eaeaea;
+  padding: 8px 15px;
+  z-index: 2;
+}
+@media (max-width: 767px) {
+  /* line 28, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .otuser-info {
+    top: 30px;
+  }
+}
+/* line 41, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .otuser-info a {
+  padding: 0;
+  line-height: 24px;
+}
+/* line 46, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a {
+  display: block;
+  cursor: pointer;
+  color: #777777;
+  font: 400 13px/26px "Poppins", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  /* line 46, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info a {
+    color: #666666;
+    line-height: 24px;
+    text-transform: capitalize;
+  }
+}
+/* line 57, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a:hover, .header_user_info a.active {
+  color: black;
+}
+@media (max-width: 991px) {
+  /* line 57, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info a:hover, .header_user_info a.active {
+    color: black;
+  }
+}
+/* line 63, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a .logout {
+  padding: 0 0 0 6px;
+}

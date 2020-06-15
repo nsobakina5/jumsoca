@@ -1,0 +1,97 @@
+/* line 3, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top {
+  float: left;
+  position: relative;
+  margin: 0 5px 0 0;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+  #currencies-block-top {
+    margin: 0;
+  }
+}
+/* line 10, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top span.firstWord {
+  display: none;
+}
+/* line 13, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current {
+  padding: 0;
+  color: #777777;
+  cursor: pointer;
+}
+/* line 17, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current .cur-label {
+  display: none;
+}
+/* line 20, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current strong {
+  color: #777777;
+  letter-spacing: 0.4px;
+  font: 400 13px/28px "Poppins", Helvetica, sans-serif;
+  padding-left: 1px;
+}
+/* line 26, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current.active {
+  color: black;
+}
+/* line 28, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current.active strong {
+  color: black;
+}
+/* line 31, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current.active:after {
+  content: "\f106";
+  color: black;
+  font-size: 12px;
+}
+/* line 38, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current:hover {
+  color: black;
+}
+/* line 40, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current:hover strong {
+  color: black;
+}
+/* line 43, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current:hover:after {
+  color: black;
+}
+/* line 47, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top div.current:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  line-height: 18px;
+  color: #777777;
+  vertical-align: 0;
+  padding-left: 2px;
+  display: inline-block;
+}
+/* line 60, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top ul {
+  display: none;
+  position: absolute;
+  top: 39px;
+  left: 0;
+  padding: 10px 15px;
+  background: white;
+  border: 1px solid #eaeaea;
+  width: 150px;
+  z-index: 2;
+}
+/* line 71, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top ul li {
+  color: white;
+}
+/* line 74, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top ul li a,
+#currencies-block-top ul li > span {
+  line-height: 24px;
+  display: block;
+  color: #666666;
+}
+/* line 79, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+#currencies-block-top ul li.selected a, #currencies-block-top ul li:hover a {
+  color: black;
+}

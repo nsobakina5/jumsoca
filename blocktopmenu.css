@@ -1,0 +1,16 @@
+/* line 3, ../../../../sass/modules/blocktopmenu/css/blocktopmenu.scss */
+#block_top_menu {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  /* line 3, ../../../../sass/modules/blocktopmenu/css/blocktopmenu.scss */
+  #block_top_menu {
+    border-top: 1px solid #eaeaea;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../../sass/modules/blocktopmenu/css/blocktopmenu.scss */
+  #block_top_menu {
+    margin: 70px 0 0;
+  }
+}

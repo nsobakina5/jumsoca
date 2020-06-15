@@ -1,0 +1,85 @@
+/* line 3, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top {
+  float: left;
+  position: relative;
+  margin: 0 20px 0 0;
+}
+@media (max-width: 480px) {
+  /* line 3, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  #languages-block-top {
+    margin: 0 10px 0 0;
+  }
+}
+/* line 10, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top span.firstWord {
+  display: none;
+}
+/* line 13, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current {
+  color: #777777;
+  padding: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 400 13px/28px "Poppins", Helvetica, sans-serif;
+  letter-spacing: 0.4px;
+}
+/* line 20, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current strong {
+  color: #666666;
+  font-weight: normal;
+}
+/* line 24, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current.active {
+  color: black;
+}
+/* line 26, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current.active:after {
+  content: "\f106";
+  color: black;
+  font-size: 12px;
+}
+/* line 32, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current:hover {
+  color: black;
+}
+/* line 34, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current:hover:after {
+  color: black;
+}
+/* line 38, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top div.current:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  line-height: 18px;
+  color: #777777;
+  vertical-align: 0;
+  padding-left: 2px;
+}
+/* line 50, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul {
+  display: none;
+  position: absolute;
+  top: 39px;
+  border: 1px solid #eaeaea;
+  background: #ffffff;
+  padding: 10px 15px;
+  left: 0;
+  width: 150px;
+  z-index: 2;
+}
+/* line 61, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li {
+  color: white;
+}
+/* line 64, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li a,
+#languages-block-top ul li > span {
+  line-height: 24px;
+  display: block;
+  color: #666666;
+}
+/* line 69, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+#languages-block-top ul li.selected span, #languages-block-top ul li:hover span {
+  color: black;
+}

@@ -1,0 +1,93 @@
+﻿@charset "UTF-8";
+/* --------------------------- Onthemes Custom Styles ----------------------------- */
+/* line 9, ../../sass/onthemes/custom.scss */
+.owl-wrapper-outer {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 13, ../../sass/onthemes/custom.scss */
+.owl-wrapper-outer .owl-wrapper {
+  position: relative;
+}
+/* line 15, ../../sass/onthemes/custom.scss */
+.owl-wrapper-outer .owl-wrapper:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+/* line 23, ../../sass/onthemes/custom.scss */
+.owl-wrapper-outer .owl-wrapper .owl-item {
+  float: left;
+}
+
+/* line 29, ../../sass/onthemes/custom.scss */
+.customNavigation {
+  float: left;
+  display: inline-block;
+  position: static;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+/* line 36, ../../sass/onthemes/custom.scss */
+.customNavigation a {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  border: 1px solid #eaeaea;
+  color: #777777;
+  position: relative;
+  width: 31px;
+  height: 31px;
+}
+/* line 46, ../../sass/onthemes/custom.scss */
+.customNavigation a.prev {
+  background: transparent url("sprite.png") no-repeat scroll -9px -353px;
+  margin: 0 4px 0 0;
+  padding: 0;
+}
+/* line 50, ../../sass/onthemes/custom.scss */
+.customNavigation a.prev:before {
+  border-top: 1px solid #eaeaea;
+  content: "";
+  float: left;
+  height: 1px;
+  left: -61px;
+  position: absolute;
+  text-align: left;
+  top: 14px;
+  width: 60px;
+}
+/* line 62, ../../sass/onthemes/custom.scss */
+.customNavigation a.next {
+  background: transparent url("sprite.png") no-repeat scroll -11px -386px;
+}
+/* line 64, ../../sass/onthemes/custom.scss */
+.customNavigation a.next:before {
+  border-top: 1px solid #eaeaea;
+  content: "";
+  height: 1px;
+  right: -61px;
+  position: absolute;
+  top: 14px;
+  width: 60px;
+}
+/* line 74, ../../sass/onthemes/custom.scss */
+.customNavigation a:hover {
+  border-color: #000;
+  background-color: #000;
+  color: white;
+}
+/* line 78, ../../sass/onthemes/custom.scss */
+.customNavigation a:hover.prev {
+  background-position: -67px -353px;
+}
+/* line 81, ../../sass/onthemes/custom.scss */
+.customNavigation a:hover.next {
+  background-position: -69px -386px;
+}

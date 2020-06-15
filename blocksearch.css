@@ -1,0 +1,155 @@
+/* line 3, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top {
+  padding: 0;
+  float: right;
+  width: auto;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top {
+    float: right;
+    left: 0;
+    margin: auto;
+    padding: 0;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 116px;
+    width: 60%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 3, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top {
+    top: 126px;
+  }
+}
+/* line 21, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top #searchbox {
+  float: left;
+  width: 100%;
+}
+/* line 25, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search {
+  display: block;
+  position: absolute;
+  top: 0;
+  background: transparent url("urn:scrapbook:download:error:https://centroroller.mx/themes/PRS01/img/templatetrip/sprite.png") no-repeat scroll -9px -242px;
+  right: 0;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 23px;
+  text-align: center;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  /* line 25, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top .btn.button-search {
+    top: 7px;
+    right: 8px;
+  }
+}
+/* line 41, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search span {
+  display: none;
+}
+/* line 45, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .btn.button-search:hover {
+  color: #6f6f6f;
+  background-position: -69px -242px;
+}
+/* line 50, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top #search_query_top {
+  display: inline;
+  padding: 0;
+  height: 24px;
+  margin-right: 1px;
+  border: none;
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+  width: 0;
+  position: absolute;
+  right: 0;
+}
+@media (max-width: 767px) {
+  /* line 50, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top #search_query_top {
+    width: 100%;
+    height: 35px;
+    padding: 10px 35px 10px 10px;
+    border: 1px solid #cccccc;
+  }
+}
+/* line 67, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top #search_query_top:focus, #search_block_top #search_query_top:active {
+  border-color: #aaaaaa;
+  width: 100%!important;
+}
+@media (max-width: 767px) {
+  /* line 67, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top #search_query_top:focus, #search_block_top #search_query_top:active {
+    width: 100%!important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top:hover #search_query_top {
+    width: 100%!important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 78, ../../../sass/modules/blocksearch/blocksearch.scss */
+  #search_block_top:hover #search_query_top {
+    width: 100%!important;
+  }
+}
+
+/* line 89, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results {
+  background: white;
+  border: 1px solid #eaeaea;
+  width: 271px !important;
+  margin-top: -1px;
+}
+/* line 94, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+/* line 100, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li.ac_odd {
+  background: white;
+}
+/* line 103, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li:hover, .ac_results li.ac_over {
+  background: #fbfbfb;
+}
+
+/* line 109, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox {
+  position: relative;
+}
+/* line 111, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox label {
+  color: #111111;
+}
+/* line 114, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox input#search_query_block {
+  margin-right: 10px;
+  max-width: 222px;
+  margin-bottom: 10px;
+  display: inline-block;
+  float: left;
+}
+/* line 121, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox .button.button-small {
+  float: left;
+}
+/* line 123, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox .button.button-small i {
+  margin-right: 0;
+}
